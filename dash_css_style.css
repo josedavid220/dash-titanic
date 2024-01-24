@@ -6,6 +6,20 @@
     --secondary: #66FF99;
 }
 
+
+h1, h2 {
+    width: fit-content;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Ubuntu';
+}
+
+body {
+    font-family: 'Josefin Sans';
+    line-height: 1;
+}
+
 .font-dl-primary {
     color: var(--primary)
 }
@@ -26,18 +40,5 @@
     color: var(--primary);
     box-shadow: inset 0px -14px 0px 0px var(--secondary);
     padding-right: 5%;
-}
-
-h1, h2 {
-    width: fit-content;
-}
-
-h1, h2, h3, h4 {
-    font-family: 'Ubuntu';
-}
-
-body {
-    font-family: 'Josefin Sans';
-    line-height: 1;
 }
 
