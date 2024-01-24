@@ -1,7 +1,28 @@
-.bg-datalab{ 
-	background-color: red !important;
+:root {
+    --primary: #002360;
+    --secondary: #66FF99;
 }
 
-.bg-testing{ 
-	backgroud: blue !important;
+.font-dl-primary {
+    color: var(--primary)
 }
+
+.font-dl-secondary {
+    color: var(--secondary)
+}
+
+.bg-dl-primary{ 
+	background-color: var(--primary);
+}
+
+.bg-dl-secondary{ 
+	background-color: var(--secondary);
+}
+
+.text-box {
+    color: var(--primary);
+    box-shadow: inset 0px -14px 0px 0px var(--secondary);
+    padding-right: 5%;
+}
+
+
