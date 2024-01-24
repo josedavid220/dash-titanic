@@ -3,23 +3,6 @@
     --secondary: #66FF99;
 }
 
-h1,
-h2 {
-    width: fit-content;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    font-family: url('https://fonts.googleapis.com/css?family=Ubuntu');
-}
-
-body {
-    font-family: url('https://fonts.googleapis.com/css?family=Josefin Sans');
-    line-height: 1;
-}
-
 .font-dl-primary {
     color: var(--primary)
 }
@@ -42,4 +25,16 @@ body {
     padding-right: 5%;
 }
 
+h1, h2 {
+    width: fit-content;
+}
+
+h1, h2, h3, h4 {
+    font-family: url('https://fonts.googleapis.com/css?family=Ubuntu');
+}
+
+body {
+    font-family: url('https://fonts.googleapis.com/css?family=Josefin Sans');
+    line-height: 1;
+}
 
