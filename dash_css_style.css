@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Josefin Sans');
+
 :root {
     --primary: #002360;
     --secondary: #66FF99;
@@ -30,11 +33,11 @@ h1, h2 {
 }
 
 h1, h2, h3, h4 {
-    font-family: url('https://fonts.googleapis.com/css?family=Ubuntu');
+    font-family: 'Ubuntu';
 }
 
 body {
-    font-family: url('https://fonts.googleapis.com/css?family=Josefin Sans');
+    font-family: 'Josefin Sans';
     line-height: 1;
 }
 
